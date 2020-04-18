@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+using namespace std;
+
+typedef struct{double x; double y;}Point;
+void POINTshow(Point p){
+	printf("[%lf %lf]\n", p.x, p.y);
+}
+int main(void){
+	Point test = {.25, .75};
+    POINTshow(test);
+	return 0;
+}

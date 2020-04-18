@@ -1,0 +1,7 @@
+The (a) is basis.
+
+The (b) and (c) one adds a type alias 'point' in the global name space and thus allows you to just write.
+
+Note that since all identifier name spaces are different, (b) and (c) defining both in the structs and global spaces is not an error, as it is not redefining the same identifier, but rather like creating a different identifier in a different place.
+
+The difference between (b) and (c), (b) is assigned to variable, (c) is directly assigned to struct place.

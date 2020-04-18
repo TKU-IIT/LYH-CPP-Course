@@ -1,0 +1,17 @@
+#include<iostream>
+
+using namespace std;
+int main(){
+	int n;
+	cin >> n;
+	if(n == 0){
+		cout << "0";
+	}else{
+		int m = n;
+		for(int i=1; i<m; i++){
+			n = n*i;
+		}
+		cout << n;
+	}
+	return 0;
+}
