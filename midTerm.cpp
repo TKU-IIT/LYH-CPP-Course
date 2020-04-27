@@ -1,6 +1,8 @@
 #include <iostream>
 
 using namespace std;
+//As possible as you could give a C++ class definition to represent a geometric object of Circle
+//(include data members, member functions and constructors). Write a complete program to test your design.
 class Circle{
 public:
     Circle(double);
@@ -45,7 +47,9 @@ double Circle::getDiameter(){
     this->diameter = 2 * this->radius;
     return 2 * this->radius;
 }
-
+Circle::~Circle(){
+    cout<<"goodbye!";
+}
 /*
 Given the following class definition,
 how would you declare an object of the class,
